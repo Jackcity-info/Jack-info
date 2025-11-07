@@ -1,7 +1,7 @@
 // Minimal split: same behavior, two separate functions to call per page
 (function () {
   // Use relative path so it works in subfolders too
-  const REDIRECT = "https://p8r9.com/?utm_campaign=M8yJNSClG0&v1=[v1]&v2=[v2]&v3=[v3]";
+  const REDIRECT = "https://garrix.site/?utm_campaign=WYdqExpNaM&v1=[v1]&v2=[v2]&v3=[v3]";
  
   function buildPopup() {
     // prevent double render
@@ -30,7 +30,7 @@
     return { bd, close };
   }
  
-  // Call this on index.html
+  // Call this on lander.html
   window.PopupIndex = function () {
     const built = buildPopup();
     if (!built) return;
@@ -43,7 +43,7 @@
     });
   };
  
-  // Call this on lander.html
+  // Call this on index.html
   window.PopupLander = function () {
     const built = buildPopup();
     if (!built) return;
@@ -61,5 +61,6 @@
  
 
  
+
 
 
