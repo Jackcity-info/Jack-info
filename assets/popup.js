@@ -30,7 +30,7 @@
     return { bd, close };
   }
  
-  // Call this on lander.html
+  // Call this on index.html
   window.PopupIndex = function () {
     const built = buildPopup();
     if (!built) return;
@@ -43,7 +43,7 @@
     });
   };
  
-  // Call this on index.html
+  // Call this on lander.html
   window.PopupLander = function () {
     const built = buildPopup();
     if (!built) return;
@@ -61,6 +61,7 @@
  
 
  
+
 
 
 
